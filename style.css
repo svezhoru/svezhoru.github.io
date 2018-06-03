@@ -1,3 +1,6 @@
+div {
+    font-family: 'Fira Sans', sans-serif;
+}
 
 #bg {
     position:fixed;
@@ -30,6 +33,16 @@
   margin-right: 0px;
 }
 
+.second-img {
+  background-image: url(images/window5.jpg);
+  height: 500px;
+}
+
+.third-img {
+  background-image: url(images/window7.jpg);
+  height: 500px;
+}
+
 .line {
   margin: 50px;
   padding: 0px;
@@ -50,10 +63,7 @@
   margin: 50px;
 }
 
-.second-img {
-  background-image: url(images/window2.jpg);
-  height: 920px;
-}
+
 
 .room-quantity{
   font-size: 700%;
@@ -111,6 +121,36 @@
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.second-line {
+    background-color: #e6e6e6;
+  padding: 0px;
+  height: auto;
+}
+
+h1.window-cleaning {
+  margin-top: 20px;
+}
+
+ul.window-cleaning li {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.third-line {
+  background-color: azure;
+  padding: 0px;
+  height: auto;
+}
+div.window-miracle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 #page-wrap {
