@@ -2,6 +2,11 @@ div {
     font-family: 'Fira Sans', sans-serif;
 }
 
+P {
+   text-indent: 0px; /* Отступ первой строки */
+   text-align: justify; /* Выравнивание по ширине */
+  }
+
 #bg {
     position:fixed;
     top:-50%;
@@ -123,8 +128,34 @@ div {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.end-button-call-inline{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
 .second-line {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
   padding: 0px;
   height: auto;
 }
@@ -145,6 +176,24 @@ ul.window-cleaning li {
   padding: 0px;
   height: auto;
 }
+
+.fourth-line {
+  background-color: #e6e6e6;
+}
+
+.end-button-call{
+  border: 2px solid;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.end-span-button{
+  font-size: 2rem;
+}
+
 div.window-miracle {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -166,5 +215,5 @@ div.window-miracle {
 p {
     font: 45px;
     margin: 0 0 30px 0;
-    text-indent: 40px;
+    /* text-indent: 40px; */
 }
