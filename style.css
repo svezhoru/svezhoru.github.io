@@ -55,6 +55,12 @@ P {
 
 }
 
+.price-text{
+  margin-top: 50px;
+  font-size: 200%;
+
+}
+
 .line {
   margin: 50px;
   padding: 0px;
@@ -171,11 +177,14 @@ h1.window-cleaning {
   margin-top: 20px;
 }
 
+ul.window-cleaning{
+  margin-bottom: 50px;
+}
+
 ul.window-cleaning li {
   margin-bottom: 20px;
   font-size: 1.5rem;
   font-family: 'Open Sans Condensed', sans-serif;
-
 }
 
 .third-line {
