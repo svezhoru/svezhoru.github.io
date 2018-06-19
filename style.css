@@ -48,6 +48,13 @@ P {
   height: 500px;
 }
 
+.call-text{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 130%;
+
+}
+
 .line {
   margin: 50px;
   padding: 0px;
